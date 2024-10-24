@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 38, 255);
+    color: #fff;
+    width: 100%;
+    height: 200px;
+}
+
+.c1 {
+    margin: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header div {
+    width: 150px;
+    height: 35px;
+    background-color: #00ff62;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    flex: 1;
+}
+
+.tecnologias h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tecnologias ul {
+    display: grid;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 800px;
+    height: 90px;
+    align-items: center;
+}
+
+.dvprincipal_tec {
+    display: flex;
+    justify-content: center;
+}
+
+.tecnologias ul li {
+    text-align: justify;  
+}
+
+.hf {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.h01 {
+    width: 370px;
+    background-color: rgb(0, 132, 255);
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+.h01 div h2 {
+    text-align: center;
+}
+
+.f01 {
+    width: 370px;
+    background-color: rgb(0, 255, 55);
+    border-radius: 5px;  
+}
+
+.f01 div h2 {
+    text-align: center;
+}
+
+.sessao2 {
+    background-color: rgb(36, 36, 36);
+    margin-bottom: 30px;
+}
+
+.instap {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 840px;
+    border-radius: 5px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: black;
+}
+
+.acessar {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.acessar button {
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0026ff;
+}
+
+.acessar :hover {
+    background-color: #00ffaa;
+}
+
+.acessar button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.login {
+    display: grid;
+    justify-content: center;
+}
+
+.login h1 {
+    text-align: center;
+}
+
+.btl {
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.login2 {
+    display: flex;
+    justify-content: center;
+}
+
+.btc {
+    width: 150px;
+    height: 34px;
+    margin-top: 30px;
+    justify-content: center;
+    background-color: #00ff37;
+    border-radius: 5px;
+}
+
+.login2 button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
